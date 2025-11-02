@@ -1,0 +1,2 @@
+date,time,action,allocation_pct,confidence,technical_signal,technical_zscore,current_price,macro_sentiment,macro_score,entry_price,stop_loss,target
+2025-11-02,16:41:46,NO_TRADE,0,NONE,NEUTRAL,0.52,25722.1,NEUTRAL,-1,,,

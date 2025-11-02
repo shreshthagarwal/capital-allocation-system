@@ -1,0 +1,37 @@
+trading:
+  lookback_period: 20
+  zscore_buy_threshold: -2.0
+  zscore_sell_threshold: 2.0
+  capital_base: 100000
+
+macro_weights:
+  rbi_rate: 2
+  fii_flow: 2
+  global_indices: 1
+  usd_inr: 1
+  india_vix: 1
+
+macro_thresholds:
+  bullish: 2
+  bearish: -2
+
+allocation:
+  high: 80
+  medium: 50
+  low: 20
+  none: 0
+
+risk:
+  max_allocation_pct: 80
+  stop_loss_pct: 2.0
+  exit_time: "15:15"
+
+data:
+  nifty_symbol: "^NSEI"
+  start_date: "2022-01-01"
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  signals: "data/signals/"
+  results: "results/"
